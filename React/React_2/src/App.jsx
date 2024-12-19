@@ -10,9 +10,9 @@ import UserCard from './components/UserCard'
 function App() {
   return (
    <div className="container">
-    <UserCard name="Shubhaman Gill" im={gil} des="A talented cricketer."/>
-    <UserCard name="Virat Kohli" im={virat} des="GOAT of cricket"/>
-    <UserCard name="Rohit sharma" im={rohit} des="The current captain."/>
+    <UserCard name="Shubhaman Gill" im={gil} des="A talented cricketer." style={{"border-radius":"10px"}} />
+    <UserCard name="Virat Kohli" im={virat} des="GOAT of cricket" style={{"border-radius":"10px"}} />
+    <UserCard name="Rohit sharma" im={rohit} des="The current captain." style={{"border-radius":"10px"}} />
    </div>
   )
 }
