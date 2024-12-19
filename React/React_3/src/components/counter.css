@@ -1,0 +1,16 @@
+.counter-container{
+    background-color: #B3C8CF;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 1.5rem;
+    border: 3px solid black;    
+}
+
+body{
+    background-color: #89A8B2;  
+}
+
+#btn{
+    background-color: #E5E1DA;
+}
